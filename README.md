@@ -1,5 +1,17 @@
 # HugTokenCraft
 **HugTokenCraft** is a user-friendly Python library that simplifies the process of modifying the vocabulary of a PreTrainedTokenizer from HuggingFace Transformers, making it accessible without additional training. As of now, this was validated for BertTokenizer, which is word-piece-based vocabulary.
+# Why choose HugTokenCraft?
+While adding new tokens to a pre-trained tokenizer is relatively simple, removing tokens however, is not straightforward. Specially, if you want to remove majority of the tokens, there will be inconsistencies with the special token ids. HugTokenCraft makes these operations very simple.
+
+## Useful for
+- Creating artifical language from existing one for Language models
+- Editing existing vocabulary 
+
+# Features
+- Remove tokens from a pre-trained Tokenizer 
+- Add tokens to a pre-trained Tokenizer
+- Change the maximum token length 
+- Works even when majority of tokens are removed
 
 # Installation
 ### Install from PyPI
